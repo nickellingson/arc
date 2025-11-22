@@ -57,7 +57,11 @@ print("arm endian", sys.byteorder)
 # 0x1234 = 00010010 00110100
 
 # little endian
+# address ->
+# 00   01
 # 0x34 0x12
 
 # big endian
+# address ->
+# 00   01
 # 0x12 0x34
